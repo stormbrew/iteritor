@@ -1,0 +1,20 @@
+[package]
+name = "iteritor"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata."docs.rs"]
+features = ["std"]
+
+[features]
+# Use the 'real' Try and FromResidual traits instead of the polyfills.
+nightly = []
+# Include things that depend on the stdlib (using Rc and VecDeque as a buffer).
+std = []
+default = ["std"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
