@@ -3,7 +3,7 @@ name = "iteritor"
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.56"
-license = "Apache 2.0"
+license = "Apache-2.0"
 description = """Helpers for more advanced use of iterator combinators and \
 other more functional control flows, including things that may not really fit \
 in the std iterator library or itertools, but nonetheless help make some things \
